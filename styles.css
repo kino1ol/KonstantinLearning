@@ -1,0 +1,23 @@
+h1 {
+    font-size: 100px;
+    
+}
+
+.phone {
+    border: 0;
+}
+
+#idPhone {
+    width: 500px ;
+    height: 250px;
+    border: 5px solid red;
+    background-color: antiquewhite;
+}
+
+.NameDiv {
+    font-size: 30px;
+}
+
+p {
+    display: inline;
+}
