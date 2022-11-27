@@ -5,6 +5,13 @@ p {
     font-style: italic;
 }
 
+<<<<<<< HEAD
+=======
+html {
+    scroll-behavior: smooth;
+  }
+
+>>>>>>> 16e00acc728b7b539872411e5d02b9bcb8fa9a3d
 h2 {
     size: 21px;
     margin-bottom: 20px;
