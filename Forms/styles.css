@@ -1,0 +1,11 @@
+.fon {
+    display: flex;
+    min-height: 50vh;
+    background-image: url('https://p4.wallpaperbetter.com/wallpaper/422/549/156/hd-background-nature-1920x1080-wallpaper-preview.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#block {
+    margin: auto;
+}
