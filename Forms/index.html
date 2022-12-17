@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,20 @@
     <title>Form</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
-    
+    <form method="post" action="https://dummyjson.com/auth/login">
+        <div>
+            <label for="name">name</label>
+            <input type="text" name="username" placeholder="N">
+        </div>
+        <div>
+            <label for="password">password</label>
+            <input type="password" name="password" placeholder="pass">
+        </div>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
 </body>
+
 </html>
