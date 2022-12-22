@@ -1,0 +1,8 @@
+.wall {
+    width: 50%;
+    display: flex;
+    background-position: center;
+}
+#block {
+    width: 50%;
+}
