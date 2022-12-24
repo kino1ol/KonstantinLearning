@@ -6,22 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="CStyles.css">
 </head>
-<body>
+<body id="body">
     <div class="wall">
+        <h1 id="h1">Login Account</h1>
         <form method="post" action="https://dummyjson.com/auth/login" id="block">
-            <div>
-                <label for="name">name</label>
-                <input type="text" name="name" placeholder="login">
-                <button type="reset">on</button>
+            <div class="AD" id="dA">
+                <label for="name" id="text1">login</label>
+                <input type="text" name="name" placeholder="myNameIs" id="input1">
             </div>
-            <div>
-                <label for="password">password</label>
-                <input type="password" name="password" placeholder="password">
+            <div class="b">
+                <label for="password" id="text2">password</label>
+                <input type="password" name="password" placeholder="123qwerty123" id="input2">
+            <button type="reset" id="bt1">reset</button>
+            <button type="submit" id="bt2">Submit</button>
             </div>
-            <button type="reset">reset</button>
-            <button type="submit">Submit</button>
         </form>
     </div>
 </body>
