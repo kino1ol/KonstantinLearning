@@ -1,11 +1,25 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .fon {
     display: flex;
-    min-height: 50vh;
-    background-image: url('https://p4.wallpaperbetter.com/wallpaper/422/549/156/hd-background-nature-1920x1080-wallpaper-preview.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    min-height: 100vh;
+    background: url("./img/fon.jpg") no-repeat center / cover;
 }
+
+input {
+    display: block;
+    width: 100%;
+    border-radius: 30px;
+    border: 0;
+}
+
+input::placeholder {
+    padding-left: 5px;
+}
+
 #block {
     margin: auto;
 }
