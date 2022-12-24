@@ -8,20 +8,25 @@
     <title>Form</title>
     <link rel="stylesheet" href="CStyles.css">
 </head>
-<body id="body">
-    <div class="wall">
-        <h1 id="h1">Login Account</h1>
-        <form method="post" action="https://dummyjson.com/auth/login" id="block">
-            <div class="AD" id="dA">
-                <label for="name" id="text1">login</label>
-                <input type="text" name="name" placeholder="myNameIs" id="input1">
+
+<body>
+    <div class="container">
+        <div class="form">
+            <div class="items">
+                <h1>Login Account</h1>
+                <form method="post" action="https://dummyjson.com/auth/login">
+                    <div class="AD">
+                        <label for="name">login</label>
+                        <input type="text" name="name" placeholder="myNameIs">
+                    </div>
+                    <div class="b">
+                        <label for="password">password</label>
+                        <input type="password" name="password" placeholder="123qwerty123">
+                        <button type="reset">reset</button>
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
             </div>
-            <div class="b">
-                <label for="password" id="text2">password</label>
-                <input type="password" name="password" placeholder="123qwerty123" id="input2">
-            <button type="reset" id="bt1">reset</button>
-            <button type="submit" id="bt2">Submit</button>
-            </div>
-        </form>
+        </div>
     </div>
 </body>
