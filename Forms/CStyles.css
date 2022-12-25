@@ -16,8 +16,15 @@ body {
     margin: auto;
 }
 
-input {
+.in {
+    margin-left: 15px;
+    margin-right: 15px;
     padding-left: 5px;
+    width: 336px;
+    padding-top: 5px;
+    margin-top: 3px;
+    border-style: outset;
+    border-color: rgb(251, 247, 237);
 }
 
 .items {
@@ -26,4 +33,42 @@ input {
 
 .form {
     background-color: rgb(255, 255, 255);
+}
+label {
+    display: block;
+    margin-left: 25px;
+    margin-top: 15px;
+    font-weight: 600;
+
+}
+button {
+    margin-left: 15px;
+    display: block;
+    margin-top: 10px;
+    width: 350px;
+    height: 50px;
+    border: 0;
+    border-radius: 25px;
+    background-color: rgb(29, 29, 220);
+    color: white;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+h1 {
+    text-align: center;
+}
+.poop {
+    text-align: center;
+    margin-top: 10px;
+}
+.ser {
+    margin-top: 5px;
+    margin-left: 5px;
+    display: block;
+}
+.bbc {
+    display: block;
+}
+.checker {
+    display: flex;
 }
