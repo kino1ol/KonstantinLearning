@@ -68,3 +68,7 @@
 td {
     height: 50px;
 }
+
+.tot:hover {
+    background-color: brown;
+}
