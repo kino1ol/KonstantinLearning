@@ -31,3 +31,6 @@
 .tr1 {
     background-color: rgb(123, 148, 249);
 }
+.tot:hover {
+    background-color: brown;
+}
