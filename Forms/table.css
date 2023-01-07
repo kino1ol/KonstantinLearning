@@ -31,3 +31,11 @@
 .tr1 {
     background-color: rgb(123, 148, 249);
 }
+
+.class:nth-child(1n) {
+
+}
+
+.class:hover {
+    
+}
