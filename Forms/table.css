@@ -37,5 +37,34 @@
 }
 
 .class:hover {
-    
+
+}
+
+.div1, .div2 {
+    width: 100px;
+    height: 100px;
+    color: wheat;
+}
+
+.parentDiv {
+    display: flex;
+}
+
+.div1 {
+    background-color: red;
+    margin-bottom: 30px;
+    display: table-cell;
+    vertical-align: bottom;
+    margin: auto;
+}
+
+.div2 {
+    background-color: black;
+    word-break: break-all;
+    overflow-x:hidden;
+    display: inline-block;
+}
+
+td {
+    height: 50px;
 }
