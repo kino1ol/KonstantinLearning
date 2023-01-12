@@ -16,6 +16,10 @@ body {
     margin: auto;
 }
 
+button {
+    cursor: pointer;
+}
+
 .in {
     margin-left: 15px;
     margin-right: 15px;
@@ -58,13 +62,14 @@ h1 {
     text-align: center;
 }
 .poop {
+    display: block;
     text-align: center;
     margin-top: 10px;
+    color: white;
+    text-decoration: none;
 }
 .ser {
-    margin-top: 5px;
     margin-left: 5px;
-    display: block;
 }
 .bbc {
     display: block;
@@ -72,6 +77,37 @@ h1 {
 .checker {
     display: flex;
 }
+<<<<<<< HEAD
 .tot {
     
 }
+=======
+
+.checker > label  {
+    margin: 0;
+}
+
+input:hover {
+    border: 3px solid black;
+}
+input:focus {
+    border-radius: 30px;
+}
+a:visited {
+    color: black;
+}
+a:active {
+    color: blue;
+}
+
+.checker > input:checked {
+    width: 50px;
+    height: 50px;
+}
+
+.checker::before {
+    content: '';
+    width: 100px;
+    background-color: blueviolet
+}
+>>>>>>> de647c30b4a52f065d0508448fc0f0375ffc11a8
