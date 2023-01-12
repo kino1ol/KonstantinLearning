@@ -1,0 +1,29 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://sportishka.com/uploads/posts/2022-04/thumbs/1650668932_15-sportishka-com-p-los-andzheles-shtat-kaliforniya-krasivo-fo-17.jpg');
+    min-height: 100vh;
+    display: flex;
+}
+.container {
+    background-color: rgb(120, 231, 231);
+    width: 1300px;
+    margin: 0 auto;   
+}
+input::placeholder {
+    padding-left: 5px;
+}
+input{
+    width: 70%;
+    height: 30%;
+    padding-top: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+h1 {text-align: center;}
+.info {
+    margin-left: 25vh;
+}
+.pipa {
+    size: 25vh;
+}
