@@ -10,7 +10,7 @@ body {
     width: 1300px;
     margin: 0 auto;   
 }
-input::placeholder {
+input {
     padding-left: 5px;
 }
 input{
@@ -19,11 +19,30 @@ input{
     padding-top: 5px;
     margin-top: 25px;
     margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
-h1 {text-align: center;}
+
+.container {
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+h1 {
+    text-align: center;
+}
+
+label, p {
+    text-align: center;
+    display: block;
+}
+
 .info {
-    margin-left: 25vh;
+    width: 70%;
+    margin: auto;
 }
+
 .pipa {
     size: 25vh;
 }
