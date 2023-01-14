@@ -1,0 +1,27 @@
+.container {
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+body {
+    background-image: url(https://www.wallpaperflare.com/static/128/942/557/nature-mountains-clouds-snow-wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.inside {
+    margin: 0 auto;
+    width: 105vh;
+}
+.shit {
+    background-color: antiquewhite;
+    font-size: large;
+    width: 100vh;
+    margin: 0 auto;
+
+}
+h1 {
+    text-align: center;
+}
+img {
+    width: 75%;
+    margin: 0 auto;
+}

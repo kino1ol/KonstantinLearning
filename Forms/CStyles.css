@@ -6,7 +6,7 @@ body {
     display: flex;
 }
 
-* {
+{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
@@ -77,11 +77,6 @@ h1 {
 .checker {
     display: flex;
 }
-<<<<<<< HEAD
-.tot {
-    
-}
-=======
 
 .checker > label  {
     margin: 0;
@@ -110,4 +105,3 @@ a:active {
     width: 100px;
     background-color: blueviolet
 }
->>>>>>> de647c30b4a52f065d0508448fc0f0375ffc11a8
