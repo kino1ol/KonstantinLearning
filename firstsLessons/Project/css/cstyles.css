@@ -49,3 +49,31 @@ img {
     width: 75%;
     margin: 0 auto;
 }
+a:hover
+{
+    color:rgb(127, 203, 211);
+    text-decoration: underline;
+}
+footer {
+    min-height: 60px;
+    background-color: white;
+    display: flex;
+
+}
+.image > img{
+    display: block;
+    height: 350px;
+    width: auto;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 25vh;
+}
+.image {
+    height: 65vh;
+}
+footer > a {
+    margin: auto;
+}
+.inside > p {
+    text-align: center;
+}
