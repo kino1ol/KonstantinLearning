@@ -69,11 +69,45 @@ footer {
     margin-top: 25vh;
 }
 .image {
-    height: 65vh;
+    min-height: 87.5vh;
 }
 footer > a {
     margin: auto;
 }
 .inside > p {
     text-align: center;
+}
+
+.image {
+    display: flex;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block1 {
+    background-color: aqua;
+    height: 150px;
+}
+
+.block2 {
+    background-color: chartreuse;
+}
+
+.block3 {
+    background-color: blue;
+}
+
+.block4 {
+    background-color: white;
+}
+
+.block5 {
+    background-color: brown;
 }
