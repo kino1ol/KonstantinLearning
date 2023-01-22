@@ -7,6 +7,10 @@ body {
     min-height: 100vh;
 }
 
+p {
+    margin: 0;
+}
+
 .card {
     display: flex;
     height: 100vh;
@@ -47,6 +51,9 @@ h1 {
     height: 80px;
     border: 2px solid #FFC80A;
     border-radius: 50%;
+    position: relative;
+    margin-top: 5px;
+    margin-right: 13px;
 }
 
 
@@ -80,6 +87,7 @@ ul {
     display: flex;
     text-decoration: none;
     list-style-type: none;
+    margin-bottom: 0;
 }
 li {
     gap: 5px;
@@ -90,17 +98,33 @@ li {
 }
 .HH {
     display: flex;
+    justify-content: space-between;
 }
 .ICG {
     gap: 41px;
-    padding-left: 170px;
 }
 .stars {
     padding: 0;
 }
 .main {
-    display: inline-block;
+    max-width: 278px;
 }
 .circle_procent {
-    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tt {
+    margin-top: 30px;
+}
+
+.price {
+    margin: 15px 0;
+}
+
+.BB {
+    justify-content: space-between;
+    align-items: flex-end;
 }
