@@ -10,22 +10,38 @@
 body {
     background-image: url(https://getwallpapers.com/wallpaper/full/f/e/5/1401151-best-maroon-colour-background-2880x1800-for-iphone-5.jpg);
 }
+
+.pizduk1, .hclothing, .hhead,
+.heyes, .hmouth, .hnose {
+    position: absolute;
+}
+
+.pizduk1 {
+    position: relative;
+    block-size: fit-content;
+}
+
 .hclothing {
-    transform: translate(-164px, 0px);
+    left: 0;
+    bottom: 3px;
 }
+
 .hhead {
-    transform: translate(-338px, 0px);
+    top: -4px;
+    left: 42px;
 }
-.hmouth {
-    transform: translate(-452px, -37px);
-}
+
 .heyes {
-    transform: translate(-501px, -74px);
+    top: 80px;
+    left: 110px;
 }
+
+.hmouth {
+    top: 130px;
+    left: 120px;
+}
+
 .hnose {
-    transform: translate(-538px, -63px)
+    top: 85px;
+    left: 145px;
 }
-.sthoodie {transform: translate(-165px, 3px);}
-.stcap {transform: translate(-341px, 8px);}
-.steyes {transform: translate(-462px, -75px);}
-.stnose {transform: translate(-500px, -64px);}
