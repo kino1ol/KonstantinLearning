@@ -11,14 +11,21 @@ body {
     background-image: url(https://getwallpapers.com/wallpaper/full/f/e/5/1401151-best-maroon-colour-background-2880x1800-for-iphone-5.jpg);
 }
 
-.pizduk1, .hclothing, .hhead,
+.hclothing, .hhead,
 .heyes, .hmouth, .hnose {
     position: absolute;
+}
+
+.hclothing, .hhead {
+    width: 100%;
 }
 
 .pizduk1 {
     position: relative;
     block-size: fit-content;
+    background-image: url('./img/square.png');
+    width: 300px;
+    height: 300px;
 }
 
 .hclothing {
