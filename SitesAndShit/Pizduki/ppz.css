@@ -12,29 +12,25 @@ body {
 }
 
 .hclothing, .hhead,
-.heyes, .hmouth, .hnose {
+.heyes, .hmouth, .hnose, .hbody {
     position: absolute;
 }
-
-.hclothing, .hhead {
-    width: 100%;
-}
-
 .pizduk1 {
     position: relative;
-    block-size: fit-content;
     background-image: url('./img/square.png');
-    width: 300px;
-    height: 300px;
+}
+.hbody {
+    left: 1px;
+    top: 12px;
 }
 
 .hclothing {
-    left: 0;
-    bottom: 3px;
+    left: 1px;
+    bottom: -332px;
 }
 
 .hhead {
-    top: -4px;
+    top: 8px;
     left: 42px;
 }
 
@@ -44,7 +40,7 @@ body {
 }
 
 .hmouth {
-    top: 130px;
+    top: 135px;
     left: 120px;
 }
 
