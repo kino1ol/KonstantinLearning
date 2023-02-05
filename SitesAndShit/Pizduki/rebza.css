@@ -4,7 +4,7 @@
 .heyes, .hmouth, .hnose, .h1head, .hbeard, .h21head {
     position: absolute;
 }
-.pizduk1 {
+.pizduk1, .pizduk2, .pizduk3 {
     position: relative;
     background-color: aqua;
     margin-bottom: 50px;
@@ -41,3 +41,11 @@
 .h21head {
     width: 300px;
 }
+
+.pizduk3 .h1head {
+    width: 180px;
+    top: -40px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
