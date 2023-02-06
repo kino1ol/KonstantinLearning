@@ -1,49 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="verstka.css">
     <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+    <link rel="stylesheet" href="verstka.css">
 </head>
+
 <body>
     <header>
-        <div class="menu">
-            <div class="logo">
-                <img src="files/img/Icon.png" class="icon">
-                <div class="logoContents">
-                    <p class="logoText1">Foundation</p>
-                    <p class="logoText2">Startup landing template</p>
+        <div class="container">
+            <div class="menu">
+                <div class="logo">
+                    <img src="files/img/Icon.png" class="icon">
+                    <div class="logoContents">
+                        <p class="logoText1">Foundation</p>
+                        <p class="logoText2">Startup landing template</p>
+                    </div>
                 </div>
+                <nav class="rightpart">
+                    <ul class="navmen">
+                        <li><a href="#">home</a></li>
+                        <li>stories</li>
+                        <li>library</li>
+                    </ul>
+                    <button class="headerButton">Get Started</button>
+                </nav>
             </div>
-            <div class="rightpart">
-                <ul class="navmen">
-                    <li>home</li>
-                    <li>stories</li>
-                    <li>library</li>
-                </ul>
-                <button class="headerButton">Get Started</button>
-            </div>
-        </div>
-        <div class="imgblock">
-            <img src="files/img/ouch.png" alt="imgouch" class="ouch" width="1050" height="700">
-        </div>
-        
-        <div class="text">
-            <div class="textholder">
-                <h1 class="maintext1">A bill that's fair and flexible</h1>
-            </div>
-            <h3 class="undertext">Create live segments and target the right people for messages based on their behaviors.</h3>
-        </div>
-        <div class="buttons">
-            <button class="button1">Get Started</button>
-            <button class="button2">Learn More</button>
         </div>
     </header>
     <main>
-        <div class="maincontent1"></div>
+        <section class="maincontent1">
+            <div class="container">
+                <div class="maincontent1_items">
+                    <div class="text">
+
+                        <h1 class="maintext1">A bill that's fair and flexible</h1>
+
+                        <h3 class="undertext">Create live segments and target the right people for messages based on
+                            their
+                            behaviors.</h3>
+                    </div>
+                    <div class="buttons">
+                        <button class="button1">Get Started</button>
+                        <button class="button2">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            <img class="imgblock" src="files/img/ouch.png" alt="imgouch" class="ouch" width="1050" height="700">
+        </section>
         <div class="maincontent2"></div>
         <div class="maincontent3"></div>
     </main>
@@ -53,4 +61,5 @@
         <div class="footercontent3"></div>
     </footer>
 </body>
+
 </html>

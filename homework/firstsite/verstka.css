@@ -1,8 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
 header {
     background-image: url(files/img/base.png);
-    height: 100vh;
-    position: relative;
 }
 .ouch {
     width: 1152px;
@@ -18,7 +22,7 @@ header {
     display: flex;
     min-height: 62px;
     padding-top: 39px;
-    padding-left: 130px;
+    
     padding-right: 130px;
     justify-content: space-between;
 
@@ -64,7 +68,6 @@ header {
     font-family: 'Work Sans';
     font-weight: 700;
     font-size: 80px;
-    height: 165px;
 }
 .logoText1 {
     font-family: 'Work Sans';
@@ -75,26 +78,14 @@ header {
 }
 .undertext {
     font-family: 'Work Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 34px;
-    display: block;
-    width: 456px;
-    top: 376px;
-    left: 130px;
 }
 .buttons {
-    max-width: 338px;
-    max-height: 48px;
-    top: 536px;
-    left: 130px;
-    display: flex;
-    padding-left: 130px;
+    display: flex; 
 }
-.text {
-    padding-left: 130px;
-}
+
 .textholder {
     max-width: 586px;
     z-index: 1;
@@ -117,4 +108,23 @@ header {
     border-radius: 5px;
     color: #3040C4;
     border: 0px;
+}
+
+.maincontent1 {
+    position: relative;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.maincontent1 .container {
+    margin-left: 130px;
+    max-width: 645px;
+}
+
+.maincontent1_items {
+    position: relative;
+    z-index: 1;
 }
