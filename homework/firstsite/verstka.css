@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 a {
-    text-decoration: none;
-    color: black;
+    font-family: 'Work Sans';
+}
+p {
+    font-family: 'Work Sans';
 }
 
 header {
@@ -13,19 +15,17 @@ header {
 }
 .imgblock {
     position: absolute;
-    top: 201px;
+    top: 99px;
     right: 49px;
-    max-width: 1152px;
+    max-width: 796px;
     bottom: 61px;
+    max-height: 442px;
 }
 .menu {
     display: flex;
-    min-height: 62px;
     padding-top: 39px;
-    
-    padding-right: 130px;
     justify-content: space-between;
-
+    width: 1200px;
 }
 .navmen {
     display: flex;
@@ -48,11 +48,15 @@ header {
     font-size: 18px;
     line-height: 25px;
 }
+.navmen > li a {
+    text-decoration: none;
+    color: black;
+}
 .logoContents > p {
     font-family: 'Work Sans';
-    font-weight: 400;
     font-size: 18px;
     line-height: 25px;
+    padding-left: 15px;
 }
 .headerButton {
     width: 160px;
@@ -63,11 +67,15 @@ header {
     font-family: 'Work Sans';
     color: white;
     border: 0px;
+    font-weight: 700;
 }
 .maintext1, .maintext2 {
     font-family: 'Work Sans';
     font-weight: 700;
     font-size: 80px;
+    line-height: 78px;
+    padding-top: 76px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .logoText1 {
     font-family: 'Work Sans';
@@ -76,14 +84,22 @@ header {
     font-size: 20px;
     line-height: 25px;
 }
+.logoText2 {
+    color: #2B292D99;
+}
 .undertext {
     font-family: 'Work Sans';
     font-weight: 400;
     font-size: 24px;
     line-height: 34px;
+    padding-top: 34px;
+    max-width: 456px;
 }
 .buttons {
     display: flex; 
+    padding-top: 58px;
+    padding-bottom: 126px;
+    gap: 10px;
 }
 
 .textholder {
@@ -93,6 +109,7 @@ header {
 .button1, .button2 {
     width: 160px;
     height: 48px;
+    font-weight: 700;
 }
 .button1 {
     font-family: 'Work Sans';
@@ -100,7 +117,7 @@ header {
     border-radius: 5px;
     color: white;
     border: 0px;
-    padding-right: 10px;
+    font-weight: 700;
 }
 .button2 {
     font-family: 'Work Sans';
@@ -108,10 +125,12 @@ header {
     border-radius: 5px;
     color: #3040C4;
     border: 0px;
+    padding-right: 10px;
 }
 
 .maincontent1 {
     position: relative;
+    background-image: url(files/img/base.png);
 }
 
 .container {
@@ -127,4 +146,268 @@ header {
 .maincontent1_items {
     position: relative;
     z-index: 1;
+}
+header .container {
+    margin-left: 130px;
+    padding-right: 130px;
+}
+.navmen > li:hover {
+    font-weight: 700;
+}
+.logoText1 {
+    font-weight: 700;
+}
+.maincontent2 .container {
+    margin-top: 105px;
+    margin-bottom: 105px;
+    display: flex;
+    justify-content: space-around;
+}
+.pidarokimg, .phoneimg, .brokenphoneimg {
+    padding-top: 38px;
+    padding-bottom: 38px;
+    padding-left: 95px;
+    padding-right: 95px;
+}
+.options p {
+    max-width: 293px;
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    margin: 0 auto;
+}
+.options a {
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    margin: 0 auto;
+    padding-top: 33px;
+    padding-bottom: 40px;
+}
+.options:hover {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+.maincontent3 {
+    background-image: url(files/img/baseblue.png);
+}
+.options2 {
+    display: flex;
+    justify-content: space-around;
+}
+.textcont {
+    text-align: center;
+}
+.textcont h2 {
+    display: block;
+    padding-top: 24px;
+    font-weight: 700;
+    max-width: 555px;
+    margin: 0 auto;
+    font-family: 'Work Sans';
+    font-size: 56px;
+    line-height: 56px;
+}
+.textcont p {
+    display: block;
+    padding-top: 108px;
+    font-weight: 700;
+}
+.textcont2 {
+    text-align: center;
+    max-width: 370px;
+    padding-top: 30px;
+    padding-bottom: 131px;
+    margin: 0 auto;
+}
+.options2 {
+    padding-bottom: 172px;
+}
+.options2 div:hover {
+    background-color: #3040C4;
+    color: white;
+    cursor: pointer;
+}
+
+.options2 div {
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+.options2 div p {
+    padding-bottom: 33px;
+    font-weight: 700;
+}
+.robocop {
+    padding-left: 62px;
+    padding-right: 62px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+.TV {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+.athletes {
+    padding-left: 51px;
+    padding-right: 51px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+.lamp {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+.hotspots__container {
+    display: flex;
+    margin-left: 130px;
+    margin-right: 130px;
+    justify-content: space-around;
+    margin-top: 147px;
+    margin-bottom: 189px;
+}
+.text__coms {
+    font-weight: 700;
+    font-size: 22px;
+    color: #807F81;
+    padding-top: 50px;
+}
+.text__products {
+    max-width: 461px;
+    display: block;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    padding-top: 30px;
+    padding-bottom: 39px;
+}
+.textright h2 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;
+    font-family: 'Work Sans';
+    max-width: 462px;
+    padding-top: 26px;
+}
+.Hotspot__Button {
+    width: 160px;
+    height: 48px;
+    background-color: #3040C4;
+    border-radius: 5px;
+    font-family: 'Work Sans';
+    color: white;
+    border: 0px;
+    font-weight: 700;
+}
+.trial {
+    background-image: url(files/img/basegray.png);
+}
+.trial .container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 73px;
+    padding-bottom: 72px;
+}
+.cont_email h2 {
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Work Sans';
+    max-width: 555px;
+    padding-bottom: 12px;
+}
+.cont_email p {
+    max-width: 555px;
+    line-height: 32px;
+    font-size: 22px;
+    padding-bottom: 26px;
+}
+.emailholder {
+    width: 385px;
+    height: 48px;
+    padding-left: 15px;
+    font-size: 18px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+}
+.placebutton {
+    display: flex;
+    justify-content: space-between;
+}
+.description {
+    max-width: 330px;
+    font-size: 18px;
+    line-height: 26px;
+    color: #2B292D99;
+}
+.foundation {
+    display: block;
+}
+.pre_footer .container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 43px;
+    margin-bottom: 47px;
+}
+.logo2 {
+    max-width: fit-content;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    padding-bottom: 26px;
+}
+.appstores {
+    display: flex;
+    gap: 10px;
+    padding-top: 25px;
+}
+.product_company {
+    display: flex;
+}
+.product_company ul p{
+    font-weight: 700;
+    font-size: 22px;
+}
+.product_company ul li{
+    font-size: 18px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    color: #2B292D99;
+    line-height: 30px;
+    text-decoration: none;
+}
+.product_company ul {
+    list-style-type: none;
+}
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footerUL {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    margin-left: 66px;
+}
+.footerUL li{
+    font-family: 'Work Sans';
+    font-size: 14px;
+    color: #2B292D99;
+    font-weight: 400;
+}
+.imgfooter {
+    display: flex;
+    gap: 15px;
+}
+footer {
+    border-top: solid;
+    border-width: 3px;
+    border-color: black;
+    border: solid;
 }
