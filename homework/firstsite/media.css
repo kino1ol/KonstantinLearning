@@ -1,0 +1,42 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 900px;
+    }
+
+    .maincontent1 {
+        position: static;
+    }
+
+    .maintext1 {
+        font-size: 40px;
+        padding-top: 40px;
+    }
+
+    .maincontent1 .container {
+        margin: 0 auto;
+        max-width: 900px;
+        display: flex;
+        align-items: center;
+    }
+
+    .undertext {
+        font-size: 20px;
+    }
+
+    .buttons {
+        padding-bottom: 70px;
+    }
+
+    .imgblock {
+        width: 550px;
+        height: 305px;
+        position: static;
+    }
+}
+
+@media (max-width: 968px) {
+    .imgblock {
+        width: 400px;
+        height: 222px;
+    }
+}
