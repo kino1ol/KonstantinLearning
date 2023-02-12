@@ -40,3 +40,26 @@
         height: 222px;
     }
 }
+@media (max-width: 768px) {
+    html {
+        max-width: 768px;
+    }
+}
+@media (max-width: 576px) {
+    html {
+        max-width: 576px;
+    }
+    .placebutton {
+        display: block;
+    }
+    .emailholder {
+        max-width: 299px;
+    }
+    .imgblock {
+        width: 240px;
+        height: 168px;
+    }
+    .headerButton {
+        margin-left: 29px;
+    }
+}

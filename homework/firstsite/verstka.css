@@ -404,9 +404,4 @@ footer .container {
 	display: flex;
 	gap: 15px;
 }
-footer {
-	border-top: solid;
-	border-width: 3px;
-	border-color: black;
-	border: solid;
-}
+
