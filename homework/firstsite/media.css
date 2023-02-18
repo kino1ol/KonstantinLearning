@@ -145,3 +145,33 @@
         width: auto;
     }
 }
+@media (max-width: 425px) {
+    .imgblock {
+        display: none;
+    }
+    .binoculars {
+        display: none;
+    }
+    .dogg {
+        display: none;
+    }
+    .company {
+        display: none;
+    }
+    .product {
+        display: none;
+    }
+    .footerUL {
+        display: flex;
+        gap: 10px;
+        list-style-type: none;
+        margin-left: -38px;
+    }
+    footer .container {
+        display: flex;
+        gap: 15px;
+    }
+    .buttons {
+        gap: 5px;
+    }
+}
