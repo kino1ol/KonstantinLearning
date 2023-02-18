@@ -9,6 +9,9 @@ p {
 .burger {
 	display: none;
 }
+.burger1 {
+	display: none;
+}
 header {
 	background-color: #F9D9EB;
 	position: sticky;
