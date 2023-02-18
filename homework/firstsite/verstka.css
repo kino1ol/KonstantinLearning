@@ -6,9 +6,14 @@ a {
 p {
 	font-family: "Work Sans";
 }
-
+.burger {
+	display: none;
+}
 header {
-	background-image: url(files/img/base.png);
+	background-color: #F9D9EB;
+	position: sticky;
+	top: 0;
+	z-index: 90;
 }
 .ouch {
 	width: 1152px;
@@ -23,8 +28,10 @@ header {
 }
 .menu {
 	display: flex;
-	padding-top: 39px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	justify-content: space-between;
+
 }
 .navmen {
 	display: flex;
@@ -131,7 +138,7 @@ header {
 
 .maincontent1 {
 	position: relative;
-	background-image: url(files/img/base.png);
+	background-color: #F9D9EB;
 }
 
 .container {
@@ -264,13 +271,13 @@ header {
 	padding-top: 22px;
 	padding-bottom: 22px;
 }
-.hotspots__container {
+.hotspots {
+	padding-top: 130px;
+	margin-bottom: 130px;
+}
+.ht_container {
 	display: flex;
-	margin-left: 130px;
-	margin-right: 130px;
 	justify-content: space-around;
-	margin-top: 147px;
-	margin-bottom: 189px;
 }
 .text__coms {
 	font-weight: 700;
@@ -348,11 +355,13 @@ header {
 .foundation {
 	display: block;
 }
+.pre_footer {
+	margin-top: 43px;
+	margin-bottom: 47px;
+}
 .pre_footer .container {
 	display: flex;
 	justify-content: space-around;
-	margin-top: 43px;
-	margin-bottom: 47px;
 }
 .logo2 {
 	max-width: fit-content;

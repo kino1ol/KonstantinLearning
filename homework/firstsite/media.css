@@ -39,6 +39,10 @@
         width: 400px;
         height: 222px;
     }
+    .placebutton {
+        display: block;
+    }
+
 }
 @media (max-width: 768px) {
     .imgblock {
@@ -88,7 +92,7 @@
     .pidarokimg, .phoneimg, .brokenphoneimg {
         padding: unset;
         max-width: 130px;
-        margin: 0;
+        margin: 0 auto;
     }
     .dogg {
         max-width: 150px;
@@ -103,6 +107,11 @@
 
 }
 @media (max-width: 576px) {
+    .burger {
+        display: block;
+        max-height: 50px;
+        width: auto;
+    }
     .placebutton {
         display: block;
     }
@@ -112,9 +121,27 @@
     .imgblock {
         width: 240px;
         height: 168px;
+        position: absolute;
+        top: 244px;
+        left: 162px;
     }
     .headerButton {
         margin-left: 29px;
         width: 151px;
+    }
+    .navmen {
+        display: none;
+    }
+    .pidarokimg, .phoneimg, .brokenphoneimg {
+        padding: unset;
+        max-width: 90px;
+        margin: 0 auto;
+    }
+    .options2 > div {
+        margin-bottom: 10px;
+    } 
+    .dogg {
+        max-height: 153px;
+        width: auto;
     }
 }
