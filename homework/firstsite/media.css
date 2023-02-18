@@ -41,14 +41,68 @@
     }
 }
 @media (max-width: 768px) {
-    html {
-        max-width: 768px;
+    .imgblock {
+        max-width: 230px;
+        max-height: 177px;
     }
+    .headerButton {
+        width: 127px;
+        margin-left: 46px;
+    }
+    .placebutton {
+        display: block;
+    }
+    .cont_email p {
+        max-width: 353px;
+    }
+    .cont_email h2 {
+        max-width: 355px;
+    }
+    .emailholder {
+        width: 270px;
+    }
+    .options2 {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+    .hotspots__container {
+        display: flex;
+        margin-left: 55px;
+        margin-right: 130px;
+        justify-content: space-around;
+        margin-top: 147px;
+        margin-bottom: 189px;
+    }
+    .binoculars {
+        max-width: 146px;
+        height: auto;
+    }
+    .options {
+        box-sizing: unset;
+    }
+    .options p {
+        max-width: 125px;
+    }
+    .pidarokimg, .phoneimg, .brokenphoneimg {
+        padding: unset;
+        max-width: 130px;
+        margin: 0;
+    }
+    .dogg {
+        max-width: 150px;
+    }
+    .product .company {
+        max-width: 130px;
+    }
+    .product {
+        padding: 0px;
+    }
+    
+
 }
 @media (max-width: 576px) {
-    html {
-        max-width: 576px;
-    }
     .placebutton {
         display: block;
     }
@@ -61,5 +115,6 @@
     }
     .headerButton {
         margin-left: 29px;
+        width: 151px;
     }
 }
