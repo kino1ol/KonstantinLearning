@@ -31,8 +31,8 @@ header {
 }
 .menu {
 	display: flex;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	justify-content: space-between;
 
 }
@@ -150,8 +150,9 @@ header {
 }
 
 .maincontent1 .container {
-	margin-left: 130px;
-	max-width: 645px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
 }
 
 .maincontent1_items {
@@ -165,9 +166,11 @@ header {
 .logoText1 {
 	font-weight: 700;
 }
-.maincontent2 .container {
+.maincontent2 {
 	margin-top: 105px;
 	margin-bottom: 105px;
+}
+.maincontent2 .container {
 	display: flex;
 	justify-content: space-around;
 }
@@ -274,8 +277,8 @@ header {
 	padding-top: 22px;
 	padding-bottom: 22px;
 }
-.hotspots {
-	padding-top: 130px;
+#hotspots {
+	margin-top: 130px;
 	margin-bottom: 130px;
 }
 .ht_container {
