@@ -23,11 +23,11 @@ header {
 }
 .imgblock {
 	position: absolute;
-	top: 99px;
-	right: 49px;
-	max-width: 796px;
-	bottom: 61px;
-	max-height: 442px;
+    top: 151px;
+    right: 228px;
+    max-width: 622px;
+    bottom: 61px;
+    height: auto;
 }
 .menu {
 	display: flex;

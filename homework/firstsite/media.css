@@ -34,7 +34,17 @@
 }
 
 @media (max-width: 968px) {
-<<<<<<< HEAD
+	.container {
+		max-width: 750px;
+	}
+	.imgblock {
+		width: 400px;
+		height: 222px;
+	}
+	.placebutton {
+		display: block;
+	}
+	<<<<<<< HEAD
     .menu {
         padding-left: 10px;
         padding-right: 10px;
@@ -118,18 +128,7 @@
         margin-left: 15px;
         margin-right: 15px;
     }
-=======
-	.container {
-		max-width: 750px;
-	}
-	.imgblock {
-		width: 400px;
-		height: 222px;
-	}
-	.placebutton {
-		display: block;
-	}
->>>>>>> 81a22a208e49739bd61b1a7a6068bcb606747d33
+
 }
 
 @media (max-width: 768px) {
