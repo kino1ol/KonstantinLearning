@@ -9,6 +9,9 @@ p {
 .burger {
 	display: none;
 }
+.burgerUL {
+	display: none;
+}
 .burger1 {
 	display: none;
 }
@@ -120,6 +123,14 @@ header {
 .button2 {
 	width: 160px;
 	height: 48px;
+	font-weight: 700;
+}
+.buttonGG {
+	font-family: "Work Sans";
+	background-color: #3040c4;
+	border-radius: 5px;
+	color: white;
+	border: 0px;
 	font-weight: 700;
 }
 .button1 {

@@ -41,6 +41,14 @@
 		width: 400px;
 		height: 222px;
 	}
+	.brokenphoneimg, .phoneimg, .pidarokimg {
+		height: auto;
+    	width: 360px;
+		padding-top: 5px;
+		padding-bottom: 20px;
+		padding-left: 74px;
+		padding-right: 74px;
+	}
 	.placebutton {
 		display: block;
 	}
@@ -131,16 +139,26 @@
 }
 
 @media (max-width: 768px) {
+	.logoContents p {
+		padding-left: 5px;
+	}
+	.navmen {
+		display: none;
+	}
+	.burger {
+		display: block;
+		max-height: 50px;
+		width: auto;
+	}
 	.container {
 		max-width: 560px;
 	}
 	.imgblock {
-		max-width: 230px;
-		max-height: 177px;
+		display: none;
 	}
 	.headerButton {
-		width: 127px;
-		margin-left: 46px;
+		width: 120px;
+    	margin-left: 15px;
 	}
 	.placebutton {
 		display: block;
@@ -160,6 +178,14 @@
 		flex-wrap: wrap;
 		align-content: space-between;
 	}
+	.options2 div {
+		max-width: 255px;
+    	height: auto
+	}
+	.hotspots {
+		margin-top: 45px;
+		margin-bottom: 45px;
+	}
 	.hotspots__container {
 		display: flex;
 		margin-left: 55px;
@@ -169,7 +195,7 @@
 		margin-bottom: 189px;
 	}
 	.binoculars {
-		max-width: 146px;
+		max-width: 215px;
 		height: auto;
 	}
 	.options {
@@ -194,13 +220,96 @@
 	.product {
 		padding: 0px;
 	}
+	.text__coms {
+		padding-top: 0;
+	}
+	.textright h2 {
+		padding-top: 0;
+		font-size: 42px;
+		line-height: 40px;
+	}
+	.text__products {
+		max-width: 415px;
+		font-size: 20px;
+		line-height: 30px;
+		padding-top: 10px;
+		padding-bottom: 15px;
+		margin-right: 0;
+	}
+	.ht_container {
+		padding-left: 10px;
+    	padding-right: 10px;
+	}
+	.cont_email p{
+		padding-bottom: 15px;
+		max-width: 405px;
+	}
+	.cont_email h2 {
+		max-width: 400px;
+		padding-bottom: 0px;
+	}
+	.dogg {
+		margin-top: 60px;
+		width: auto;
+		max-height: 138px;
+	}
+	.trial .container {
+		padding-top: 45px;
+    	padding-bottom: 45px;
+	}
+	.placebutton {
+		margin-top: 0px;
+	}
+	.button1 {
+		height: 50px;
+	}
+	.product_company {
+		display: none;
+	}
+	.burgerUL {
+		display: block;
+		width: auto;
+    	height: 65px;
+	}
 }
 
+
 @media (max-width: 576px) {
+	.options2 {
+		margin: 0;
+	}
+	.options2 div {
+		max-width: 190px;
+		height: auto;
+	}
+	.binoculars {
+		display: none;
+		max-width: 160px;
+		height: auto;
+		position: absolute;
+		top: 1877px;
+		left: 247px;
+	}
+	.logoContents p {
+		font-size: 14px;
+		padding: 0;
+	}
 	.container {
 		padding: 0 15px;
 	}
-
+	.menu {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.icon {
+		height: auto;
+    	width: 54px;
+	}
+	.headerButton {
+		margin-left: 10px;
+		width: 100px;
+		height: 50px;
+	}
 	.burger {
 		display: block;
 		max-height: 50px;
@@ -211,6 +320,7 @@
 	}
 	.emailholder {
 		max-width: 299px;
+		margin-bottom: 10px;
 	}
 	.imgblock {
 		width: 240px;
@@ -218,10 +328,6 @@
 		position: absolute;
 		top: 244px;
 		left: 162px;
-	}
-	.headerButton {
-		margin-left: 29px;
-		width: 151px;
 	}
 	.navmen {
 		display: none;
@@ -237,12 +343,57 @@
 		margin-bottom: 10px;
 	}
 	.dogg {
-		max-height: 153px;
-		width: auto;
+		display: none;
 	}
 }
 
 @media (max-width: 425px) {
+	.headerButton {
+		display: none;
+	}
+	.pidarokimg,
+	.phoneimg,
+	.brokenphoneimg {
+		padding: unset;
+		max-width: 75px;
+		margin: 0 auto;
+	}
+	.options {
+		padding-left: 5px;
+    	padding-right: 5px;
+	}
+	.options2 div {
+		max-width: 155px;
+		height: auto;
+		margin-bottom: 0;
+	}
+	.lamp {
+		padding-left: 55px;
+    	padding-right: 55px;
+    	padding-top: 10px;
+    	padding-bottom: 22px;
+	}
+	.TV {
+		padding-left: 50px;
+    	padding-right: 50px;
+    	padding-top: 10px;
+    	padding-bottom: 14px;
+	}
+	.robocop {
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-top: 10px;
+		padding-bottom: 22px;
+	}
+	.athletes {
+		padding-left: 45px;
+		padding-right: 45px;
+		padding-top: 10px;
+		padding-bottom: 22px;
+	}
+	.maincontent1_items {
+		padding-left: 0px;
+	}
 	.imgblock {
 		display: none;
 	}
