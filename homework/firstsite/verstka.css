@@ -446,6 +446,7 @@ footer .container {
 	display: flex;
 	gap: 15px;
 }
+<<<<<<< HEAD
 .dogg {
 	animation-name: doggy;
 	animation-duration: 5s;
@@ -459,3 +460,62 @@ footer .container {
 		left: 100px;
 	}
 }
+=======
+
+button {
+	animation: infinite;
+	animation-name: gradient;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+	background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(131,58,180,1) 100%);
+}
+
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0px;
+	}
+	100% {
+		background-position: 160px;
+	}
+}
+
+.icon {
+	animation: jump 2s ease-in-out infinite;
+	position: relative;
+	padding: 1px;
+	background-color: rgba(255, 255, 255, 0);
+    border-radius: 20px;
+}
+
+@keyframes jump {
+	0% {
+		top: 0;
+		transform: rotate(0);
+		background: rgba(255, 255, 255, 0);
+	}
+	25% {
+		top: -5px;
+		transform: rotate(10deg);
+		background: radial-gradient(circle, rgba(255,255,255,1) 70%, rgba(0,212,255,1) 100%);
+
+	}
+	50% {
+		top: 0;
+		transform: rotate(0);
+		background: rgba(255, 255, 255, 0);
+	}
+	75% {
+		top: -5px;
+		transform: rotate(-10deg);
+		background: radial-gradient(circle, rgba(255,255,255,1) 70%, rgba(0,212,255,1) 100%);
+
+	}
+	100% {
+		top: 0;
+		transform: rotate(0);
+		background: rgba(255, 255, 255, 0);
+	}
+}
+>>>>>>> 2d97f082b32a507005dfc29039af661c6f52baea
