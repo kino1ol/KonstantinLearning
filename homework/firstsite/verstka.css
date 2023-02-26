@@ -344,6 +344,22 @@ header {
 	font-family: "Work Sans";
 	max-width: 555px;
 	padding-bottom: 12px;
+	
+	
+}
+.Yh2 {
+	position: relative;
+	animation-name: running-string;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+@keyframes running-string {
+	from{
+		padding-left: 0;
+	}
+	to{
+		padding-left: 100px;
+	}
 }
 .cont_email p {
 	max-width: 555px;
@@ -429,4 +445,17 @@ footer .container {
 .imgfooter {
 	display: flex;
 	gap: 15px;
+}
+.dogg {
+	animation-name: doggy;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+}
+@keyframes doggy {
+	from {
+		left: 0;
+	}
+	to {
+		left: 100px;
+	}
 }
