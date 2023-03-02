@@ -350,15 +350,19 @@ header {
 .Yh2 {
 	position: relative;
 	animation-name: running-string;
-	animation-duration: 3s;
-	animation-iteration-count: infinite;
+	animation-duration: 2.5s!important;
+	animation-timing-function: linear!important;
 }
 @keyframes running-string {
 	from{
-		padding-left: 0;
+		left: 450px;
+		opacity: 0%;
+	}
+	15%{
+		opacity: 0%;
 	}
 	to{
-		padding-left: 100px;
+		left: 0px;
 	}
 }
 .cont_email p {
@@ -446,41 +450,6 @@ footer .container {
 	display: flex;
 	gap: 15px;
 }
-<<<<<<< HEAD
-.dogg {
-	animation-name: doggy;
-	animation-duration: 5s;
-	animation-timing-function: linear;
-}
-@keyframes doggy {
-	from {
-		left: 0;
-	}
-	to {
-		left: 100px;
-	}
-}
-=======
-
-button {
-	animation: infinite;
-	animation-name: gradient;
-	animation-duration: 3s;
-	animation-timing-function: linear;
-	background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(131,58,180,1) 100%);
-}
-
-
-
-@keyframes gradient {
-	0% {
-		background-position: 0px;
-	}
-	100% {
-		background-position: 160px;
-	}
-}
-
 .icon {
 	animation: jump 2s ease-in-out infinite;
 	position: relative;
@@ -518,4 +487,3 @@ button {
 		background: rgba(255, 255, 255, 0);
 	}
 }
->>>>>>> 2d97f082b32a507005dfc29039af661c6f52baea
