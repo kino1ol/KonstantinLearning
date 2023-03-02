@@ -2,6 +2,9 @@
 h1, h2, h3, p {
     font-family: "Inter";
 }
+p {
+    letter-spacing: -0.019em;
+}
 .headblock {
     background-image: url(images-and-other/Cover.png);
 }
@@ -57,11 +60,14 @@ section div{
 }
 .start p{
     margin-top: 7px;
-    max-width: 347px;
+    width: 329px;
     max-height: 87px;
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
+}
+.frame1 {
+    margin-left: 9px;
 }
 .text2 h3 {
     max-width: 333px;
@@ -115,10 +121,17 @@ section div{
     grid-template-columns: 1fr 1fr;
     margin-bottom: 60px;
 }
-.frame1, .frame2, .frame3 {
+.frame2, .frame3 {
     margin-left: 25px!important;
+}
+.frame1, .frame2, .frame3 {
+    width: 224px;
+    height: 224px;
 }
 a {
     width: 480px;
     height: 112px;
+}
+a:hover {
+    cursor: pointer;
 }
