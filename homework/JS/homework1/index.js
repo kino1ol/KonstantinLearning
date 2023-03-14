@@ -29,3 +29,25 @@ console.log("и мне, задумчивая, скажет:")
 console.log(st)
 console.log(st)
 console.log(text1 + text2)
+
+a1 = 5 % 3;
+console.log(a1)
+a2 = 5 + '3';
+console.log(a2)
+a3 = '5' - 3;
+console.log(a3)
+a4 = 75 + "kg"
+console.log(a4)
+a5 = 785 * 653
+a6 = 100/25
+console.log(a6)
+a7 = 0/2
+console.log(a7)
+a8 = (8 + 56 * 4)/5 
+console.log(a8)
+
+width = 23
+height = 10
+SPryam = width * height
+console.log(SPryam)
+
