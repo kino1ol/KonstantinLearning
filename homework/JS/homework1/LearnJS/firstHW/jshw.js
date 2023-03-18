@@ -35,6 +35,16 @@ undefined + 1   = NaN
 let ass3 = prompt("Первое число?", 1);
 let b1 = prompt("Второе число?", 2);
 
-
-
 alert(+b1 + +ass3);
+//2.8 чатывертае (пробовал через Number так и не понял как это делать)
+
+/*
+5 > 4                   true
+"ананас" > "яблоко"     false
+"2" > "12"              false
+undefined == null       true
+undefined === null      false
+null == "\n0\n"         false
+null === +"\n0\n"       false
+*/ 
+//2.9
