@@ -30,11 +30,6 @@ let message = (login == 'Сотрудник') ? "Привет" :
 }
 */
 
-let a = (1 || 'string' && 1 !== 1) ? true :
-    a = true ? console.log('Yes') :
-        a = true ? console.log('YesYes') :
-    console.log('No!') :
-    (a = ++) ? console.log('NoYes') ;
     
     
 
