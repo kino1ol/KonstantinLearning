@@ -1,10 +1,4 @@
-let ask
-for (let suka = 0; suka >= 100; suka++ ) {
-    ask = prompt("мне нужно число больше ста")
-    if (ask >= 100) {
-        break
-    }
-}
+
 
 for (let i = 2; i <= 10; i++) {
     if (i % 2 == 0) {
@@ -22,3 +16,9 @@ while (is < 3) {
     is++
 }
 
+let ask
+do {
+    ask = +prompt(`введите число больше ста`, )
+    console.log(ask)
+}
+while (ask < 100)
