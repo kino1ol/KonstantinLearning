@@ -1,3 +1,18 @@
+let plus = 0
+function sum() {
+    for (let i = 0; i < arguments.length; i++) {
+        plus = plus + arguments[i]
+      
+        
+    }
+    console.log(plus)
+    return plus
+}
+sum(1, 2, 3, 4, 5)
+
+
+
+/*
 function checkAge(age) {
     (age > 18) ? true : confirm('Родители разрешили?');
      
@@ -36,3 +51,4 @@ x = prompt("введите х", )
 n = prompt("введите n", )
 
 pow(x, n)
+*/
