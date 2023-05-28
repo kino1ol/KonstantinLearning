@@ -2,10 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Overlock+SC&family=Work+Sans:wght@100&display=swap');
 
 
-html, body {
-    height:100%;
-}
-H1, H2, H3, h4, p {
+
+h1, h2, h3, h4, p {
     margin: 0;
     filter: blur(0.5px);
 }
@@ -14,7 +12,6 @@ body {
     background-size: cover;
     background-repeat: repeat;
     background-position: center;
-    
 }
 .container {
     margin-left: 25px;
@@ -25,27 +22,30 @@ body {
     background-image: url(source/carsinchain.png);
     background-size:  cover;
     text-align: center;
-    height: 530px;
+}
+.class_content {
+    padding-bottom: 35px;
 }
 .class H2 {
     color: #fff;
     font-size: 75px;
     font-family: 'Roboto Condensed';
-    padding-top: 90px;
+    padding-top: 80px;
     padding-bottom: 25px;
 }
 .carscom {
     padding-top: 75px;
-    position: relative;
+}
+.classimg {
+    padding-top: 70px;
 }
 .cars_text {
     font-family: 'Overlock SC';
-    font-size: 95px;
-    margin: 0;
-    position: absolute;
-    top: 146px;
-    right: 1030px;
+    font-size: 75px;
+    width: fit-content;
     color: #fff;
+    padding-left: 8%;
+    margin: 0 auto;
 }
 .H1_CLASS {
     color: #fff;
@@ -55,7 +55,6 @@ body {
     margin: 0;
 }
 .get_in {
-    margin-top: 100px;
     margin: 0 auto;
     width: 290px;
     padding-top: 15px;
@@ -85,10 +84,7 @@ body {
     align-items: flex-end;
 }
 .comment1 {
-    opacity: 90%;
     text-align: center;
-    width: 650px;
-    height: 370px;
     border-radius: 20px;
     background-image: url(source/carrfront.png);
     background-size: cover;
@@ -104,18 +100,18 @@ body {
     line-height: 25px;
     padding-top: 120px;
     padding-bottom: 50px;
+    padding-left: 90px;
+    padding-right: 90px;
 }
 .comment1 h4{
     font-family: 'Roboto Condensed';
     font-weight: 700;
     font-size: 31px;
     color: #fff;
+    padding-bottom: 75px;
 }
 .comment2 {
-    opacity: 90%;
     text-align: center;
-    width: 715px;
-    height: 450px;
     background-image: url(source/carrfront.png);
     background-size: cover;
     border-radius: 20px;
@@ -131,12 +127,15 @@ body {
     color: #fff;
     margin: 0 auto;
     line-height: 25px;
+    padding-left: 180px;
+    padding-right: 180px;
 }
 .comment2 h4{
     font-family: 'Roboto Condensed';
     font-weight: 700;
     font-size: 31px;
     color: #fff;
+    padding-bottom: 75px;
 }
 .oldbeard {
     position: absolute;
@@ -161,9 +160,7 @@ body {
     text-align: center;
     background-image: url(source/carlight.png);
     background-size: cover;
-    height: 520px;
     margin-top: 115px;
-    opacity: 85%;
 }
 .newsletter h2{
     padding-top: 120px;
@@ -176,10 +173,9 @@ body {
 .subscribe {
     justify-content: center;
     display: flex;
+    padding-bottom: 160px;
 }
 .sub1 {
-    height: 70px;
-    width: 580px;
     border-style: solid;
     border-color: #fff;
     border-width: 2px;
@@ -192,29 +188,36 @@ body {
 }
 .sub1 a {
     color: #fff;
+    font-size: 35px;
+    padding: 15px;
+    padding-left: 185px;
+    padding-right: 185px;
 }
 .sub2 {
-    width: 165px;
-    height: 70px;
     border-style: solid;
     border-color: #fff;
     border-width: 2px;
     background-color: #fff;
     font-family: 'Roboto Condensed';
     font-weight: 700;
-    font-size: 25px;
+    font-size: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.sub2 p {
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .sub2:hover {
     cursor: pointer;
 }
 .insta {
-    height: 285px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 90px;
+    margin-bottom: 90px;
 }
 .inst_content {
     display: flex;
@@ -231,20 +234,20 @@ body {
     cursor: pointer;
 }
 .cars {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 850px 850px 850px;
+    
 }
 .impaller, .maclaren, .lowrider, .MetalGear, .Monarch, .mercedes {
-    width: 850px; height: 680px;
+    width: 33%;
 }
 .contacts {
     background-image: url(source/carlight.png);
-    height: 230px;
+    background-size: cover;
+    
 }
 .logos {
     display: flex;
     justify-content: center;
+    padding-bottom: 85px;
 }
 .logos img:hover {
     cursor: pointer;
