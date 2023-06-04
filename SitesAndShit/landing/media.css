@@ -1,0 +1,285 @@
+@media (max-width: 1200px) {
+	.container {
+		max-width: 900px;
+	}
+
+	.maincontent1 {
+		position: static;
+	}
+
+	.maintext1 {
+		font-size: 40px;
+		padding-top: 40px;
+	}
+
+	.maincontent1 .container {
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+	}
+
+	.undertext {
+		font-size: 20px;
+	}
+
+	.buttons {
+		padding-bottom: 70px;
+	}
+
+	.imgblock {
+		width: 550px;
+		height: 305px;
+		position: static;
+	}
+}
+
+@media (max-width: 968px) {
+	.container {
+		max-width: 750px;
+	}
+	.imgblock {
+		width: 400px;
+		height: 222px;
+	}
+	.placebutton {
+		display: block;
+	}
+    .menu {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .imgblock {
+        width: 400px;
+        height: 222px;
+        padding-right: 10px;
+    }
+    .undertext {
+        font-size: 20px;
+        line-height: 25px;
+        max-width: 340px;
+        padding-top: 15px;
+    }
+    .buttons {
+        padding-bottom: 35px;
+        padding-top: 30px;
+    }
+    .options p {
+        max-width: 200px
+    }
+    .placebutton {
+        display: block;
+    }
+    .maincontent2 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .maintext1 {
+        font-size: 35px;
+        padding-top: 5px;
+        line-height: 50px;
+    }
+    .maincontent1_items {
+        padding-left: 10px;
+    }
+    .headerButton {
+        width: 135px;
+        margin-left: 25px;
+    }
+    .textcont p {
+        padding-top: 50px
+    }
+    .textcont2 {
+        padding-top: 15px;
+        padding-bottom: 60px;
+    }
+    .options2 {
+        padding-bottom: 80px;
+    }
+    .binoculars {
+        max-width: 265px;
+    }
+    #hotspots {
+        margin-top: 75px;
+        margin-bottom: 75px;
+    }
+    .dogg {
+        max-width: 180px;
+    }
+    .foundation {
+        padding-left: 10px;
+    }
+    .company {
+        padding-left: 15px;
+    }
+    .product {
+        padding-left: 0;
+    }
+    .footerUL {
+        margin-left: 20px;
+    }
+    .imgfooter {
+        padding-top: 15px;
+        margin-right: 20px;
+    }
+    .options2 {
+        max-width: 875px;
+        gap: 10px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+
+@media (max-width: 768px) {
+	.container {
+		max-width: 560px;
+	}
+	.imgblock {
+		max-width: 230px;
+		max-height: 177px;
+	}
+	.headerButton {
+		width: 127px;
+		margin-left: 46px;
+	}
+	.placebutton {
+		display: block;
+	}
+	.cont_email p {
+		max-width: 353px;
+	}
+	.cont_email h2 {
+		max-width: 355px;
+	}
+	.emailholder {
+		width: 270px;
+	}
+	.options2 {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		align-content: space-between;
+	}
+	.hotspots__container {
+		display: flex;
+		margin-left: 55px;
+		margin-right: 130px;
+		justify-content: space-around;
+		margin-top: 147px;
+		margin-bottom: 189px;
+	}
+	.binoculars {
+		max-width: 146px;
+		height: auto;
+	}
+	.options {
+		box-sizing: unset;
+	}
+	.options p {
+		max-width: 125px;
+	}
+	.pidarokimg,
+	.phoneimg,
+	.brokenphoneimg {
+		padding: unset;
+		max-width: 130px;
+		margin: 0 auto;
+	}
+	.dogg {
+		max-width: 150px;
+	}
+	.product .company {
+		max-width: 130px;
+	}
+	.product {
+		padding: 0px;
+	}
+	.logo p {
+		display: none;
+	}
+	.product {
+		padding-left: 20px;
+	}
+}
+
+@media (max-width: 576px) {
+	.container {
+		padding: 0 15px;
+	}
+
+	.burger {
+		display: block;
+		max-height: 50px;
+		width: auto;
+	}
+	.placebutton {
+		display: block;
+	}
+	.emailholder {
+		max-width: 299px;
+	}
+	.imgblock {
+		width: 240px;
+		height: 168px;
+		position: absolute;
+		top: 244px;
+		left: 162px;
+	}
+	.headerButton {
+		margin-left: 29px;
+		width: 151px;
+	}
+	.navmen {
+		display: none;
+	}
+	.pidarokimg,
+	.phoneimg,
+	.brokenphoneimg {
+		padding: unset;
+		max-width: 90px;
+		margin: 0 auto;
+	}
+	.options2 > div {
+		margin-bottom: 10px;
+	}
+	.dogg {
+		max-height: 153px;
+		width: auto;
+	}
+}
+
+@media (max-width: 425px) {
+	.imgblock {
+		display: none;
+	}
+	.binoculars {
+		display: none;
+	}
+	.dogg {
+		display: none;
+	}
+	.company {
+		display: none;
+	}
+	.product {
+		display: none;
+	}
+	.footerUL {
+		display: flex;
+		gap: 10px;
+		list-style-type: none;
+		margin-left: -38px;
+	}
+	footer .container {
+		display: flex;
+		gap: 15px;
+	}
+	.buttons {
+		gap: 5px;
+	}
+	.burger1 {
+		display: block;
+		width: 50px;
+		height: 50px;
+	}
+}
