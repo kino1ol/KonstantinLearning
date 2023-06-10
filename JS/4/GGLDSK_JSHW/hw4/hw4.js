@@ -16,7 +16,7 @@ console.log(border)
 let mass1 = [-2, -1, -3, 15, 0, -4, 2, -5, 9, -15, 0, 4, 5, -6, 10, 7]
 console.log(mass1.length)
 console.log(border)
-for (i = 0; i < 17; i++) {
+for (i = 0; i < mass1.length; i++) {
     if (mass1[i] < -10) {
         continue
     }
@@ -70,8 +70,9 @@ console.log(mass4[mass4.length - 1])
 console.log(border)
 // #6
 
-/*
+
 let arr = []
+arr.sort()
 let num
 while (true) {
     num = +prompt("введите числовое значение", )
@@ -81,7 +82,7 @@ while (true) {
 console.log(num)
 console.log(border)
 // #7
-*/
+
 
 
 let mass5 = [12, false, "Текст", 4, 2, -5, 0]
@@ -109,14 +110,12 @@ console.log(border)
 
 let result = 0
 let mass7 = [48,9,0,4,21,2,1,0,8,84,76,8,4,13,2]
-console.log(mass7.length)
-for (i = 0; i < 15; i++) {
-    if (mass7[i] = 0) {
-        continue
-    }
-    do {
-        result + mass7[i]
-    } while (mass7[i] != 0)
-}
-console.log(result)
+mass7.findIndex(0)
+mass7.lastIndexOf(0)
 // #10
+
+//// # 4
+
+const arr100  = ['10', '20', '30', '50', '235', '3000']
+
+console.log(arr100[0][0]) // '1'
