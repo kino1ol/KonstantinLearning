@@ -1,13 +1,5 @@
 let border = "//////////////////////////////////////////////"
 
-((a, b) => a + b)
-
-function (a, b) {
-    a + b
-    return
-
-
-}
 console.log(((a, b) => a + b)(1,2))
 console.log((function (a, b) {
     a + b
@@ -51,6 +43,14 @@ console.log(mass3)
 console.log(border)
 // #3
 
+const arr100  = ['10', '20', '30', '50', '235', '3000']
+for (i = 0; i < arr100.length; i++) {
+    if ((arr100[i][0]) == 1 ) {
+        console.log(arr100[i])
+    }
+}
+
+console.log(border)
 // обьяснишь потом каким хером надо делать №4
 
 let week = ["пн","вт","ср","чт","пт","СБ","ВС"]
