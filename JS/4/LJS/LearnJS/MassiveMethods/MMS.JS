@@ -16,8 +16,13 @@ console.log([1,124234,5435,432,324].map((value, index, arr) => {
 
 const result = [1,2,3,4,5].filter((val, i, arr) => {
     if ( val > 1 && val < 3) {
-        return val
+        return true
     }
 })
 
-console.log(result);
+console.log(result); // [2]
+
+//from 40 to 100
+[1,21,3,42,5,60] // [42,60]
+
+[1,21,3,42,5,60] // [21,3,42,5]
